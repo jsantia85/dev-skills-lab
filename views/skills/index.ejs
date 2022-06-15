@@ -9,11 +9,11 @@
 <body>
   <h1>Skills</h1>
   <ul>
-    <% todos.forEach(todo => { %>
+    <% skills.forEach(skill => { %>
       <li>
-				<%= todo.text %> 
+				<%= skill.text %> 
 				- 
-				<%= todo.done ? 'done' : 'not done' %>
+				<%= skill.pro ? 'pro' : 'not pro' %>
 			</li>
     <% }) %>
   </ul>
